@@ -1,0 +1,10 @@
+basic.forever(function () {
+    pins.analogWritePin(AnalogPin.P15, 200)
+    basic.pause(15000)
+    pins.analogWritePin(AnalogPin.P15, 0)
+    basic.pause(200)
+    pins.analogWritePin(AnalogPin.P16, 270)
+    basic.pause(15000)
+    pins.analogWritePin(AnalogPin.P16, 0)
+    basic.pause(200)
+})
